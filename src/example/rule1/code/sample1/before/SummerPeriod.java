@@ -1,4 +1,4 @@
-package example.rule1.code;
+package example.rule1.code.sample1.before;
 
 import java.time.LocalDate;
 

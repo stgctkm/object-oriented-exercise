@@ -1,4 +1,4 @@
-package example.rule1.code.refactoring;
+package example.rule1.code.sample1.after;
 
 import java.time.LocalDate;
 
