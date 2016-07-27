@@ -1,4 +1,4 @@
-package example.rule4.practice.after;
+package example.rule4.sample2.after;
 
 class Name {
     String value;

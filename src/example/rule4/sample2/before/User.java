@@ -1,4 +1,4 @@
-package example.rule4.practice.before;
+package example.rule4.sample2.before;
 
 class User {
     String userName;
