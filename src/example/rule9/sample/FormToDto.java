@@ -8,7 +8,7 @@ class FormToDto {
         dto.setFirstName(form.getFirstName());
         dto.setLastName(form.getLastName());
         dto.setFullName(form.getLastName() + " " + form.getFirstName());
-        dto.setAge(form.getAge());
+        dto.setAge(Integer.parseInt(form.getAge()));
         dto.setCountry(form.getCountry());
         dto.setCity(form.getCity());
         dto.setZip(form.getZip());
@@ -120,7 +120,7 @@ class Dto {
     String firstName;
     String lastName;
     String fullName;
-    String age;
+    Integer age;
     String country;
     String city;
     String zip;
@@ -154,11 +154,11 @@ class Dto {
         this.fullName = fullName;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
