@@ -1,5 +1,5 @@
 package example.rule5.sample.before;
 
-class UserMailAddress {
+class UsrPhn {
     String value;
 }
