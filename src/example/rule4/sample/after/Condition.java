@@ -1,10 +1,10 @@
-package example.rule4.sample1.after;
+package example.rule4.sample.after;
 
 class Condition {
 
     Precedent precedent;
 
     String precedentContent() {
-        return precedent.content();
+        return precedent.contentValue();
     }
 }

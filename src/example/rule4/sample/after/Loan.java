@@ -1,4 +1,4 @@
-package example.rule4.sample1.after;
+package example.rule4.sample.after;
 
 class Loan {
 

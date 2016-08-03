@@ -15,7 +15,7 @@ class EmAlphabet {
                 }
             } else if (c >= 'Ａ') {
                 if (c <= 'Ｚ') {
-                    c = (char)(c - 'Ａ' + 'A');
+                    c = (char)(c - 'A' + 'Ａ');
                     sb.setCharAt(i, c);
                 }
             }
